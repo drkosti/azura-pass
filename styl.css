@@ -1,0 +1,44 @@
+
+
+body {
+    background-color: #0581ca;
+    min-height: 100vh;
+}
+
+.box{
+background-color: white;
+padding-top: 30px;
+padding: 30px;
+}
+
+#host, #port, #nazwa_uzytkownika, #password, #info1, #info2, #pmont, #samohaslo {
+    margin: 30px 40px 10px 0px;
+}
+
+h2 {
+    margin: 50px 0px 40px 20px;
+}
+.kopiujhaslo {
+    margin: 30px 0px 0px 0px;
+}
+
+.form-control::placeholder {
+    font-weight: bold;
+    opacity: 0.3;
+    color: red!important;
+}
+#password::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(0, 0, 0)!important;
+}
+
+.stopka {
+    color: White;
+    margin: 7px;
+}
+
+.stopka a {
+    color: black;
+    text-decoration: none;
+}
